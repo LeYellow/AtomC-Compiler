@@ -1,0 +1,11 @@
+// domain: global
+void put_i(int i /*size=4, idx=0*/){
+	}
+void put_d(double d /*size=8, idx=0*/){
+	}
+int fact(int n /*size=4, idx=0*/){
+	}
+void main(){
+	int r;	// size=4, idx=0
+	int i;	// size=4, idx=1
+	}

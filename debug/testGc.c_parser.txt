@@ -1,0 +1,1618 @@
+unit TYPE_INT
+structDef TYPE_INT
+Consuming (STRUCT) line 2  => found TYPE_INT
+fnDef TYPE_INT
+typeBase TYPE_INT
+Consuming (TYPE_INT) line 2  => consumed
+Consuming (ID) line 2  => consumed
+Consuming (LPAR) line 2  => consumed
+fnParam TYPE_INT
+typeBase TYPE_INT
+Consuming (TYPE_INT) line 2  => consumed
+Consuming (ID) line 2  => consumed
+arrayDecl RPAR
+Consuming (LBRACKET) line 2  => found RPAR
+Consuming (COMMA) line 2  => found RPAR
+Consuming (RPAR) line 2  => consumed
+stmCompound LACC
+Consuming (LACC) line 2  => consumed
+varDef IF
+typeBase IF
+Consuming (TYPE_INT) line 3  => found IF
+Consuming (TYPE_DOUBLE) line 3  => found IF
+Consuming (TYPE_CHAR) line 3  => found IF
+Consuming (STRUCT) line 3  => found IF
+stm IF
+stmCompound IF
+Consuming (LACC) line 3  => found IF
+Consuming (IF) line 3  => consumed
+Consuming (LPAR) line 3  => consumed
+expr ID
+exprAssign ID
+exprUnary ID
+Consuming (SUB) line 3  => found ID
+Consuming (NOT) line 3  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 3  => consumed
+Consuming (LPAR) line 3  => found LESS
+exprPostfixPrim LESS
+Consuming (LBRACKET) line 3  => found LESS
+Consuming (DOT) line 3  => found LESS
+Consuming (ASSIGN) line 3  => found LESS
+exprOr ID
+exprAnd ID
+exprEq ID
+exprRel ID
+exprAdd ID
+exprMul ID
+exprCast ID
+Consuming (LPAR) line 3  => found ID
+exprUnary ID
+Consuming (SUB) line 3  => found ID
+Consuming (NOT) line 3  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 3  => consumed
+Consuming (LPAR) line 3  => found LESS
+exprPostfixPrim LESS
+Consuming (LBRACKET) line 3  => found LESS
+Consuming (DOT) line 3  => found LESS
+exprMulPrim LESS
+Consuming (MUL) line 3  => found LESS
+Consuming (DIV) line 3  => found LESS
+exprAddPrim LESS
+Consuming (ADD) line 3  => found LESS
+Consuming (SUB) line 3  => found LESS
+exprRelPrim LESS
+Consuming (LESS) line 3  => consumed
+exprAdd INT
+exprMul INT
+exprCast INT
+Consuming (LPAR) line 3  => found INT
+exprUnary INT
+Consuming (SUB) line 3  => found INT
+Consuming (NOT) line 3  => found INT
+exprPostfix INT
+exprPrimary INT
+Consuming (ID) line 3  => found INT
+Consuming (INT) line 3  => consumed
+exprPostfixPrim RPAR
+Consuming (LBRACKET) line 3  => found RPAR
+Consuming (DOT) line 3  => found RPAR
+exprMulPrim RPAR
+Consuming (MUL) line 3  => found RPAR
+Consuming (DIV) line 3  => found RPAR
+exprAddPrim RPAR
+Consuming (ADD) line 3  => found RPAR
+Consuming (SUB) line 3  => found RPAR
+exprRelPrim RPAR
+Consuming (LESS) line 3  => found RPAR
+Consuming (LESSEQ) line 3  => found RPAR
+Consuming (GREATER) line 3  => found RPAR
+Consuming (GREATEREQ) line 3  => found RPAR
+exprEqPrim RPAR
+Consuming (EQUAL) line 3  => found RPAR
+Consuming (NOTEQ) line 3  => found RPAR
+exprAndPrim RPAR
+Consuming (AND) line 3  => found RPAR
+exprOrPrim RPAR
+Consuming (OR) line 3  => found RPAR
+Consuming (RPAR) line 3  => consumed
+stm RETURN
+stmCompound RETURN
+Consuming (LACC) line 3  => found RETURN
+Consuming (IF) line 3  => found RETURN
+Consuming (WHILE) line 3  => found RETURN
+Consuming (RETURN) line 3  => consumed
+expr ID
+exprAssign ID
+exprUnary ID
+Consuming (SUB) line 3  => found ID
+Consuming (NOT) line 3  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 3  => consumed
+Consuming (LPAR) line 3  => found SEMICOLON
+exprPostfixPrim SEMICOLON
+Consuming (LBRACKET) line 3  => found SEMICOLON
+Consuming (DOT) line 3  => found SEMICOLON
+Consuming (ASSIGN) line 3  => found SEMICOLON
+exprOr ID
+exprAnd ID
+exprEq ID
+exprRel ID
+exprAdd ID
+exprMul ID
+exprCast ID
+Consuming (LPAR) line 3  => found ID
+exprUnary ID
+Consuming (SUB) line 3  => found ID
+Consuming (NOT) line 3  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 3  => consumed
+Consuming (LPAR) line 3  => found SEMICOLON
+exprPostfixPrim SEMICOLON
+Consuming (LBRACKET) line 3  => found SEMICOLON
+Consuming (DOT) line 3  => found SEMICOLON
+exprMulPrim SEMICOLON
+Consuming (MUL) line 3  => found SEMICOLON
+Consuming (DIV) line 3  => found SEMICOLON
+exprAddPrim SEMICOLON
+Consuming (ADD) line 3  => found SEMICOLON
+Consuming (SUB) line 3  => found SEMICOLON
+exprRelPrim SEMICOLON
+Consuming (LESS) line 3  => found SEMICOLON
+Consuming (LESSEQ) line 3  => found SEMICOLON
+Consuming (GREATER) line 3  => found SEMICOLON
+Consuming (GREATEREQ) line 3  => found SEMICOLON
+exprEqPrim SEMICOLON
+Consuming (EQUAL) line 3  => found SEMICOLON
+Consuming (NOTEQ) line 3  => found SEMICOLON
+exprAndPrim SEMICOLON
+Consuming (AND) line 3  => found SEMICOLON
+exprOrPrim SEMICOLON
+Consuming (OR) line 3  => found SEMICOLON
+Consuming (SEMICOLON) line 3  => consumed
+Consuming (ELSE) line 4  => found RETURN
+varDef RETURN
+typeBase RETURN
+Consuming (TYPE_INT) line 4  => found RETURN
+Consuming (TYPE_DOUBLE) line 4  => found RETURN
+Consuming (TYPE_CHAR) line 4  => found RETURN
+Consuming (STRUCT) line 4  => found RETURN
+stm RETURN
+stmCompound RETURN
+Consuming (LACC) line 4  => found RETURN
+Consuming (IF) line 4  => found RETURN
+Consuming (WHILE) line 4  => found RETURN
+Consuming (RETURN) line 4  => consumed
+expr ID
+exprAssign ID
+exprUnary ID
+Consuming (SUB) line 4  => found ID
+Consuming (NOT) line 4  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 4  => consumed
+Consuming (LPAR) line 4  => found MUL
+exprPostfixPrim MUL
+Consuming (LBRACKET) line 4  => found MUL
+Consuming (DOT) line 4  => found MUL
+Consuming (ASSIGN) line 4  => found MUL
+exprOr ID
+exprAnd ID
+exprEq ID
+exprRel ID
+exprAdd ID
+exprMul ID
+exprCast ID
+Consuming (LPAR) line 4  => found ID
+exprUnary ID
+Consuming (SUB) line 4  => found ID
+Consuming (NOT) line 4  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 4  => consumed
+Consuming (LPAR) line 4  => found MUL
+exprPostfixPrim MUL
+Consuming (LBRACKET) line 4  => found MUL
+Consuming (DOT) line 4  => found MUL
+exprMulPrim MUL
+Consuming (MUL) line 4  => consumed
+exprCast ID
+Consuming (LPAR) line 4  => found ID
+exprUnary ID
+Consuming (SUB) line 4  => found ID
+Consuming (NOT) line 4  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 4  => consumed
+Consuming (LPAR) line 4  => consumed
+Consuming (RPAR) line 4  => found ID
+expr ID
+exprAssign ID
+exprUnary ID
+Consuming (SUB) line 4  => found ID
+Consuming (NOT) line 4  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 4  => consumed
+Consuming (LPAR) line 4  => found SUB
+exprPostfixPrim SUB
+Consuming (LBRACKET) line 4  => found SUB
+Consuming (DOT) line 4  => found SUB
+Consuming (ASSIGN) line 4  => found SUB
+exprOr ID
+exprAnd ID
+exprEq ID
+exprRel ID
+exprAdd ID
+exprMul ID
+exprCast ID
+Consuming (LPAR) line 4  => found ID
+exprUnary ID
+Consuming (SUB) line 4  => found ID
+Consuming (NOT) line 4  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 4  => consumed
+Consuming (LPAR) line 4  => found SUB
+exprPostfixPrim SUB
+Consuming (LBRACKET) line 4  => found SUB
+Consuming (DOT) line 4  => found SUB
+exprMulPrim SUB
+Consuming (MUL) line 4  => found SUB
+Consuming (DIV) line 4  => found SUB
+exprAddPrim SUB
+Consuming (ADD) line 4  => found SUB
+Consuming (SUB) line 4  => consumed
+exprMul INT
+exprCast INT
+Consuming (LPAR) line 4  => found INT
+exprUnary INT
+Consuming (SUB) line 4  => found INT
+Consuming (NOT) line 4  => found INT
+exprPostfix INT
+exprPrimary INT
+Consuming (ID) line 4  => found INT
+Consuming (INT) line 4  => consumed
+exprPostfixPrim RPAR
+Consuming (LBRACKET) line 4  => found RPAR
+Consuming (DOT) line 4  => found RPAR
+exprMulPrim RPAR
+Consuming (MUL) line 4  => found RPAR
+Consuming (DIV) line 4  => found RPAR
+exprAddPrim RPAR
+Consuming (ADD) line 4  => found RPAR
+Consuming (SUB) line 4  => found RPAR
+exprRelPrim RPAR
+Consuming (LESS) line 4  => found RPAR
+Consuming (LESSEQ) line 4  => found RPAR
+Consuming (GREATER) line 4  => found RPAR
+Consuming (GREATEREQ) line 4  => found RPAR
+exprEqPrim RPAR
+Consuming (EQUAL) line 4  => found RPAR
+Consuming (NOTEQ) line 4  => found RPAR
+exprAndPrim RPAR
+Consuming (AND) line 4  => found RPAR
+exprOrPrim RPAR
+Consuming (OR) line 4  => found RPAR
+Consuming (COMMA) line 4  => found RPAR
+Consuming (RPAR) line 4  => consumed
+exprPostfixPrim SEMICOLON
+Consuming (LBRACKET) line 4  => found SEMICOLON
+Consuming (DOT) line 4  => found SEMICOLON
+exprMulPrim SEMICOLON
+Consuming (MUL) line 4  => found SEMICOLON
+Consuming (DIV) line 4  => found SEMICOLON
+exprAddPrim SEMICOLON
+Consuming (ADD) line 4  => found SEMICOLON
+Consuming (SUB) line 4  => found SEMICOLON
+exprRelPrim SEMICOLON
+Consuming (LESS) line 4  => found SEMICOLON
+Consuming (LESSEQ) line 4  => found SEMICOLON
+Consuming (GREATER) line 4  => found SEMICOLON
+Consuming (GREATEREQ) line 4  => found SEMICOLON
+exprEqPrim SEMICOLON
+Consuming (EQUAL) line 4  => found SEMICOLON
+Consuming (NOTEQ) line 4  => found SEMICOLON
+exprAndPrim SEMICOLON
+Consuming (AND) line 4  => found SEMICOLON
+exprOrPrim SEMICOLON
+Consuming (OR) line 4  => found SEMICOLON
+Consuming (SEMICOLON) line 4  => consumed
+varDef RACC
+typeBase RACC
+Consuming (TYPE_INT) line 5  => found RACC
+Consuming (TYPE_DOUBLE) line 5  => found RACC
+Consuming (TYPE_CHAR) line 5  => found RACC
+Consuming (STRUCT) line 5  => found RACC
+stm RACC
+stmCompound RACC
+Consuming (LACC) line 5  => found RACC
+Consuming (IF) line 5  => found RACC
+Consuming (WHILE) line 5  => found RACC
+Consuming (RETURN) line 5  => found RACC
+expr RACC
+exprAssign RACC
+exprUnary RACC
+Consuming (SUB) line 5  => found RACC
+Consuming (NOT) line 5  => found RACC
+exprPostfix RACC
+exprPrimary RACC
+Consuming (ID) line 5  => found RACC
+Consuming (INT) line 5  => found RACC
+Consuming (DOUBLE) line 5  => found RACC
+Consuming (CHAR) line 5  => found RACC
+Consuming (STRING) line 5  => found RACC
+Consuming (LPAR) line 5  => found RACC
+exprOr RACC
+exprAnd RACC
+exprEq RACC
+exprRel RACC
+exprAdd RACC
+exprMul RACC
+exprCast RACC
+Consuming (LPAR) line 5  => found RACC
+exprUnary RACC
+Consuming (SUB) line 5  => found RACC
+Consuming (NOT) line 5  => found RACC
+exprPostfix RACC
+exprPrimary RACC
+Consuming (ID) line 5  => found RACC
+Consuming (INT) line 5  => found RACC
+Consuming (DOUBLE) line 5  => found RACC
+Consuming (CHAR) line 5  => found RACC
+Consuming (STRING) line 5  => found RACC
+Consuming (LPAR) line 5  => found RACC
+Consuming (SEMICOLON) line 5  => found RACC
+Consuming (RACC) line 5  => consumed
+structDef VOID
+Consuming (STRUCT) line 7  => found VOID
+fnDef VOID
+typeBase VOID
+Consuming (TYPE_INT) line 7  => found VOID
+Consuming (TYPE_DOUBLE) line 7  => found VOID
+Consuming (TYPE_CHAR) line 7  => found VOID
+Consuming (STRUCT) line 7  => found VOID
+Consuming (VOID) line 7  => consumed
+Consuming (ID) line 7  => consumed
+Consuming (LPAR) line 7  => consumed
+fnParam RPAR
+typeBase RPAR
+Consuming (TYPE_INT) line 7  => found RPAR
+Consuming (TYPE_DOUBLE) line 7  => found RPAR
+Consuming (TYPE_CHAR) line 7  => found RPAR
+Consuming (STRUCT) line 7  => found RPAR
+Consuming (RPAR) line 7  => consumed
+stmCompound LACC
+Consuming (LACC) line 7  => consumed
+varDef ID
+typeBase ID
+Consuming (TYPE_INT) line 8  => found ID
+Consuming (TYPE_DOUBLE) line 8  => found ID
+Consuming (TYPE_CHAR) line 8  => found ID
+Consuming (STRUCT) line 8  => found ID
+stm ID
+stmCompound ID
+Consuming (LACC) line 8  => found ID
+Consuming (IF) line 8  => found ID
+Consuming (WHILE) line 8  => found ID
+Consuming (RETURN) line 8  => found ID
+expr ID
+exprAssign ID
+exprUnary ID
+Consuming (SUB) line 8  => found ID
+Consuming (NOT) line 8  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 8  => consumed
+Consuming (LPAR) line 8  => consumed
+Consuming (RPAR) line 8  => found DOUBLE
+expr DOUBLE
+exprAssign DOUBLE
+exprUnary DOUBLE
+Consuming (SUB) line 8  => found DOUBLE
+Consuming (NOT) line 8  => found DOUBLE
+exprPostfix DOUBLE
+exprPrimary DOUBLE
+Consuming (ID) line 8  => found DOUBLE
+Consuming (INT) line 8  => found DOUBLE
+Consuming (DOUBLE) line 8  => consumed
+exprPostfixPrim RPAR
+Consuming (LBRACKET) line 8  => found RPAR
+Consuming (DOT) line 8  => found RPAR
+Consuming (ASSIGN) line 8  => found RPAR
+exprOr DOUBLE
+exprAnd DOUBLE
+exprEq DOUBLE
+exprRel DOUBLE
+exprAdd DOUBLE
+exprMul DOUBLE
+exprCast DOUBLE
+Consuming (LPAR) line 8  => found DOUBLE
+exprUnary DOUBLE
+Consuming (SUB) line 8  => found DOUBLE
+Consuming (NOT) line 8  => found DOUBLE
+exprPostfix DOUBLE
+exprPrimary DOUBLE
+Consuming (ID) line 8  => found DOUBLE
+Consuming (INT) line 8  => found DOUBLE
+Consuming (DOUBLE) line 8  => consumed
+exprPostfixPrim RPAR
+Consuming (LBRACKET) line 8  => found RPAR
+Consuming (DOT) line 8  => found RPAR
+exprMulPrim RPAR
+Consuming (MUL) line 8  => found RPAR
+Consuming (DIV) line 8  => found RPAR
+exprAddPrim RPAR
+Consuming (ADD) line 8  => found RPAR
+Consuming (SUB) line 8  => found RPAR
+exprRelPrim RPAR
+Consuming (LESS) line 8  => found RPAR
+Consuming (LESSEQ) line 8  => found RPAR
+Consuming (GREATER) line 8  => found RPAR
+Consuming (GREATEREQ) line 8  => found RPAR
+exprEqPrim RPAR
+Consuming (EQUAL) line 8  => found RPAR
+Consuming (NOTEQ) line 8  => found RPAR
+exprAndPrim RPAR
+Consuming (AND) line 8  => found RPAR
+exprOrPrim RPAR
+Consuming (OR) line 8  => found RPAR
+Consuming (COMMA) line 8  => found RPAR
+Consuming (RPAR) line 8  => consumed
+exprPostfixPrim SEMICOLON
+Consuming (LBRACKET) line 8  => found SEMICOLON
+Consuming (DOT) line 8  => found SEMICOLON
+Consuming (ASSIGN) line 8  => found SEMICOLON
+exprOr ID
+exprAnd ID
+exprEq ID
+exprRel ID
+exprAdd ID
+exprMul ID
+exprCast ID
+Consuming (LPAR) line 8  => found ID
+exprUnary ID
+Consuming (SUB) line 8  => found ID
+Consuming (NOT) line 8  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 8  => consumed
+Consuming (LPAR) line 8  => consumed
+Consuming (RPAR) line 8  => found DOUBLE
+expr DOUBLE
+exprAssign DOUBLE
+exprUnary DOUBLE
+Consuming (SUB) line 8  => found DOUBLE
+Consuming (NOT) line 8  => found DOUBLE
+exprPostfix DOUBLE
+exprPrimary DOUBLE
+Consuming (ID) line 8  => found DOUBLE
+Consuming (INT) line 8  => found DOUBLE
+Consuming (DOUBLE) line 8  => consumed
+exprPostfixPrim RPAR
+Consuming (LBRACKET) line 8  => found RPAR
+Consuming (DOT) line 8  => found RPAR
+Consuming (ASSIGN) line 8  => found RPAR
+exprOr DOUBLE
+exprAnd DOUBLE
+exprEq DOUBLE
+exprRel DOUBLE
+exprAdd DOUBLE
+exprMul DOUBLE
+exprCast DOUBLE
+Consuming (LPAR) line 8  => found DOUBLE
+exprUnary DOUBLE
+Consuming (SUB) line 8  => found DOUBLE
+Consuming (NOT) line 8  => found DOUBLE
+exprPostfix DOUBLE
+exprPrimary DOUBLE
+Consuming (ID) line 8  => found DOUBLE
+Consuming (INT) line 8  => found DOUBLE
+Consuming (DOUBLE) line 8  => consumed
+exprPostfixPrim RPAR
+Consuming (LBRACKET) line 8  => found RPAR
+Consuming (DOT) line 8  => found RPAR
+exprMulPrim RPAR
+Consuming (MUL) line 8  => found RPAR
+Consuming (DIV) line 8  => found RPAR
+exprAddPrim RPAR
+Consuming (ADD) line 8  => found RPAR
+Consuming (SUB) line 8  => found RPAR
+exprRelPrim RPAR
+Consuming (LESS) line 8  => found RPAR
+Consuming (LESSEQ) line 8  => found RPAR
+Consuming (GREATER) line 8  => found RPAR
+Consuming (GREATEREQ) line 8  => found RPAR
+exprEqPrim RPAR
+Consuming (EQUAL) line 8  => found RPAR
+Consuming (NOTEQ) line 8  => found RPAR
+exprAndPrim RPAR
+Consuming (AND) line 8  => found RPAR
+exprOrPrim RPAR
+Consuming (OR) line 8  => found RPAR
+Consuming (COMMA) line 8  => found RPAR
+Consuming (RPAR) line 8  => consumed
+exprPostfixPrim SEMICOLON
+Consuming (LBRACKET) line 8  => found SEMICOLON
+Consuming (DOT) line 8  => found SEMICOLON
+exprMulPrim SEMICOLON
+Consuming (MUL) line 8  => found SEMICOLON
+Consuming (DIV) line 8  => found SEMICOLON
+exprAddPrim SEMICOLON
+Consuming (ADD) line 8  => found SEMICOLON
+Consuming (SUB) line 8  => found SEMICOLON
+exprRelPrim SEMICOLON
+Consuming (LESS) line 8  => found SEMICOLON
+Consuming (LESSEQ) line 8  => found SEMICOLON
+Consuming (GREATER) line 8  => found SEMICOLON
+Consuming (GREATEREQ) line 8  => found SEMICOLON
+exprEqPrim SEMICOLON
+Consuming (EQUAL) line 8  => found SEMICOLON
+Consuming (NOTEQ) line 8  => found SEMICOLON
+exprAndPrim SEMICOLON
+Consuming (AND) line 8  => found SEMICOLON
+exprOrPrim SEMICOLON
+Consuming (OR) line 8  => found SEMICOLON
+Consuming (SEMICOLON) line 8  => consumed
+varDef ID
+typeBase ID
+Consuming (TYPE_INT) line 10  => found ID
+Consuming (TYPE_DOUBLE) line 10  => found ID
+Consuming (TYPE_CHAR) line 10  => found ID
+Consuming (STRUCT) line 10  => found ID
+stm ID
+stmCompound ID
+Consuming (LACC) line 10  => found ID
+Consuming (IF) line 10  => found ID
+Consuming (WHILE) line 10  => found ID
+Consuming (RETURN) line 10  => found ID
+expr ID
+exprAssign ID
+exprUnary ID
+Consuming (SUB) line 10  => found ID
+Consuming (NOT) line 10  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 10  => consumed
+Consuming (LPAR) line 10  => consumed
+Consuming (RPAR) line 10  => found ID
+expr ID
+exprAssign ID
+exprUnary ID
+Consuming (SUB) line 10  => found ID
+Consuming (NOT) line 10  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 10  => consumed
+Consuming (LPAR) line 10  => consumed
+Consuming (RPAR) line 10  => found INT
+expr INT
+exprAssign INT
+exprUnary INT
+Consuming (SUB) line 10  => found INT
+Consuming (NOT) line 10  => found INT
+exprPostfix INT
+exprPrimary INT
+Consuming (ID) line 10  => found INT
+Consuming (INT) line 10  => consumed
+exprPostfixPrim RPAR
+Consuming (LBRACKET) line 10  => found RPAR
+Consuming (DOT) line 10  => found RPAR
+Consuming (ASSIGN) line 10  => found RPAR
+exprOr INT
+exprAnd INT
+exprEq INT
+exprRel INT
+exprAdd INT
+exprMul INT
+exprCast INT
+Consuming (LPAR) line 10  => found INT
+exprUnary INT
+Consuming (SUB) line 10  => found INT
+Consuming (NOT) line 10  => found INT
+exprPostfix INT
+exprPrimary INT
+Consuming (ID) line 10  => found INT
+Consuming (INT) line 10  => consumed
+exprPostfixPrim RPAR
+Consuming (LBRACKET) line 10  => found RPAR
+Consuming (DOT) line 10  => found RPAR
+exprMulPrim RPAR
+Consuming (MUL) line 10  => found RPAR
+Consuming (DIV) line 10  => found RPAR
+exprAddPrim RPAR
+Consuming (ADD) line 10  => found RPAR
+Consuming (SUB) line 10  => found RPAR
+exprRelPrim RPAR
+Consuming (LESS) line 10  => found RPAR
+Consuming (LESSEQ) line 10  => found RPAR
+Consuming (GREATER) line 10  => found RPAR
+Consuming (GREATEREQ) line 10  => found RPAR
+exprEqPrim RPAR
+Consuming (EQUAL) line 10  => found RPAR
+Consuming (NOTEQ) line 10  => found RPAR
+exprAndPrim RPAR
+Consuming (AND) line 10  => found RPAR
+exprOrPrim RPAR
+Consuming (OR) line 10  => found RPAR
+Consuming (COMMA) line 10  => found RPAR
+Consuming (RPAR) line 10  => consumed
+exprPostfixPrim RPAR
+Consuming (LBRACKET) line 10  => found RPAR
+Consuming (DOT) line 10  => found RPAR
+Consuming (ASSIGN) line 10  => found RPAR
+exprOr ID
+exprAnd ID
+exprEq ID
+exprRel ID
+exprAdd ID
+exprMul ID
+exprCast ID
+Consuming (LPAR) line 10  => found ID
+exprUnary ID
+Consuming (SUB) line 10  => found ID
+Consuming (NOT) line 10  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 10  => consumed
+Consuming (LPAR) line 10  => consumed
+Consuming (RPAR) line 10  => found INT
+expr INT
+exprAssign INT
+exprUnary INT
+Consuming (SUB) line 10  => found INT
+Consuming (NOT) line 10  => found INT
+exprPostfix INT
+exprPrimary INT
+Consuming (ID) line 10  => found INT
+Consuming (INT) line 10  => consumed
+exprPostfixPrim RPAR
+Consuming (LBRACKET) line 10  => found RPAR
+Consuming (DOT) line 10  => found RPAR
+Consuming (ASSIGN) line 10  => found RPAR
+exprOr INT
+exprAnd INT
+exprEq INT
+exprRel INT
+exprAdd INT
+exprMul INT
+exprCast INT
+Consuming (LPAR) line 10  => found INT
+exprUnary INT
+Consuming (SUB) line 10  => found INT
+Consuming (NOT) line 10  => found INT
+exprPostfix INT
+exprPrimary INT
+Consuming (ID) line 10  => found INT
+Consuming (INT) line 10  => consumed
+exprPostfixPrim RPAR
+Consuming (LBRACKET) line 10  => found RPAR
+Consuming (DOT) line 10  => found RPAR
+exprMulPrim RPAR
+Consuming (MUL) line 10  => found RPAR
+Consuming (DIV) line 10  => found RPAR
+exprAddPrim RPAR
+Consuming (ADD) line 10  => found RPAR
+Consuming (SUB) line 10  => found RPAR
+exprRelPrim RPAR
+Consuming (LESS) line 10  => found RPAR
+Consuming (LESSEQ) line 10  => found RPAR
+Consuming (GREATER) line 10  => found RPAR
+Consuming (GREATEREQ) line 10  => found RPAR
+exprEqPrim RPAR
+Consuming (EQUAL) line 10  => found RPAR
+Consuming (NOTEQ) line 10  => found RPAR
+exprAndPrim RPAR
+Consuming (AND) line 10  => found RPAR
+exprOrPrim RPAR
+Consuming (OR) line 10  => found RPAR
+Consuming (COMMA) line 10  => found RPAR
+Consuming (RPAR) line 10  => consumed
+exprPostfixPrim RPAR
+Consuming (LBRACKET) line 10  => found RPAR
+Consuming (DOT) line 10  => found RPAR
+exprMulPrim RPAR
+Consuming (MUL) line 10  => found RPAR
+Consuming (DIV) line 10  => found RPAR
+exprAddPrim RPAR
+Consuming (ADD) line 10  => found RPAR
+Consuming (SUB) line 10  => found RPAR
+exprRelPrim RPAR
+Consuming (LESS) line 10  => found RPAR
+Consuming (LESSEQ) line 10  => found RPAR
+Consuming (GREATER) line 10  => found RPAR
+Consuming (GREATEREQ) line 10  => found RPAR
+exprEqPrim RPAR
+Consuming (EQUAL) line 10  => found RPAR
+Consuming (NOTEQ) line 10  => found RPAR
+exprAndPrim RPAR
+Consuming (AND) line 10  => found RPAR
+exprOrPrim RPAR
+Consuming (OR) line 10  => found RPAR
+Consuming (COMMA) line 10  => found RPAR
+Consuming (RPAR) line 10  => consumed
+exprPostfixPrim SEMICOLON
+Consuming (LBRACKET) line 10  => found SEMICOLON
+Consuming (DOT) line 10  => found SEMICOLON
+Consuming (ASSIGN) line 10  => found SEMICOLON
+exprOr ID
+exprAnd ID
+exprEq ID
+exprRel ID
+exprAdd ID
+exprMul ID
+exprCast ID
+Consuming (LPAR) line 10  => found ID
+exprUnary ID
+Consuming (SUB) line 10  => found ID
+Consuming (NOT) line 10  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 10  => consumed
+Consuming (LPAR) line 10  => consumed
+Consuming (RPAR) line 10  => found ID
+expr ID
+exprAssign ID
+exprUnary ID
+Consuming (SUB) line 10  => found ID
+Consuming (NOT) line 10  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 10  => consumed
+Consuming (LPAR) line 10  => consumed
+Consuming (RPAR) line 10  => found INT
+expr INT
+exprAssign INT
+exprUnary INT
+Consuming (SUB) line 10  => found INT
+Consuming (NOT) line 10  => found INT
+exprPostfix INT
+exprPrimary INT
+Consuming (ID) line 10  => found INT
+Consuming (INT) line 10  => consumed
+exprPostfixPrim RPAR
+Consuming (LBRACKET) line 10  => found RPAR
+Consuming (DOT) line 10  => found RPAR
+Consuming (ASSIGN) line 10  => found RPAR
+exprOr INT
+exprAnd INT
+exprEq INT
+exprRel INT
+exprAdd INT
+exprMul INT
+exprCast INT
+Consuming (LPAR) line 10  => found INT
+exprUnary INT
+Consuming (SUB) line 10  => found INT
+Consuming (NOT) line 10  => found INT
+exprPostfix INT
+exprPrimary INT
+Consuming (ID) line 10  => found INT
+Consuming (INT) line 10  => consumed
+exprPostfixPrim RPAR
+Consuming (LBRACKET) line 10  => found RPAR
+Consuming (DOT) line 10  => found RPAR
+exprMulPrim RPAR
+Consuming (MUL) line 10  => found RPAR
+Consuming (DIV) line 10  => found RPAR
+exprAddPrim RPAR
+Consuming (ADD) line 10  => found RPAR
+Consuming (SUB) line 10  => found RPAR
+exprRelPrim RPAR
+Consuming (LESS) line 10  => found RPAR
+Consuming (LESSEQ) line 10  => found RPAR
+Consuming (GREATER) line 10  => found RPAR
+Consuming (GREATEREQ) line 10  => found RPAR
+exprEqPrim RPAR
+Consuming (EQUAL) line 10  => found RPAR
+Consuming (NOTEQ) line 10  => found RPAR
+exprAndPrim RPAR
+Consuming (AND) line 10  => found RPAR
+exprOrPrim RPAR
+Consuming (OR) line 10  => found RPAR
+Consuming (COMMA) line 10  => found RPAR
+Consuming (RPAR) line 10  => consumed
+exprPostfixPrim RPAR
+Consuming (LBRACKET) line 10  => found RPAR
+Consuming (DOT) line 10  => found RPAR
+Consuming (ASSIGN) line 10  => found RPAR
+exprOr ID
+exprAnd ID
+exprEq ID
+exprRel ID
+exprAdd ID
+exprMul ID
+exprCast ID
+Consuming (LPAR) line 10  => found ID
+exprUnary ID
+Consuming (SUB) line 10  => found ID
+Consuming (NOT) line 10  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 10  => consumed
+Consuming (LPAR) line 10  => consumed
+Consuming (RPAR) line 10  => found INT
+expr INT
+exprAssign INT
+exprUnary INT
+Consuming (SUB) line 10  => found INT
+Consuming (NOT) line 10  => found INT
+exprPostfix INT
+exprPrimary INT
+Consuming (ID) line 10  => found INT
+Consuming (INT) line 10  => consumed
+exprPostfixPrim RPAR
+Consuming (LBRACKET) line 10  => found RPAR
+Consuming (DOT) line 10  => found RPAR
+Consuming (ASSIGN) line 10  => found RPAR
+exprOr INT
+exprAnd INT
+exprEq INT
+exprRel INT
+exprAdd INT
+exprMul INT
+exprCast INT
+Consuming (LPAR) line 10  => found INT
+exprUnary INT
+Consuming (SUB) line 10  => found INT
+Consuming (NOT) line 10  => found INT
+exprPostfix INT
+exprPrimary INT
+Consuming (ID) line 10  => found INT
+Consuming (INT) line 10  => consumed
+exprPostfixPrim RPAR
+Consuming (LBRACKET) line 10  => found RPAR
+Consuming (DOT) line 10  => found RPAR
+exprMulPrim RPAR
+Consuming (MUL) line 10  => found RPAR
+Consuming (DIV) line 10  => found RPAR
+exprAddPrim RPAR
+Consuming (ADD) line 10  => found RPAR
+Consuming (SUB) line 10  => found RPAR
+exprRelPrim RPAR
+Consuming (LESS) line 10  => found RPAR
+Consuming (LESSEQ) line 10  => found RPAR
+Consuming (GREATER) line 10  => found RPAR
+Consuming (GREATEREQ) line 10  => found RPAR
+exprEqPrim RPAR
+Consuming (EQUAL) line 10  => found RPAR
+Consuming (NOTEQ) line 10  => found RPAR
+exprAndPrim RPAR
+Consuming (AND) line 10  => found RPAR
+exprOrPrim RPAR
+Consuming (OR) line 10  => found RPAR
+Consuming (COMMA) line 10  => found RPAR
+Consuming (RPAR) line 10  => consumed
+exprPostfixPrim RPAR
+Consuming (LBRACKET) line 10  => found RPAR
+Consuming (DOT) line 10  => found RPAR
+exprMulPrim RPAR
+Consuming (MUL) line 10  => found RPAR
+Consuming (DIV) line 10  => found RPAR
+exprAddPrim RPAR
+Consuming (ADD) line 10  => found RPAR
+Consuming (SUB) line 10  => found RPAR
+exprRelPrim RPAR
+Consuming (LESS) line 10  => found RPAR
+Consuming (LESSEQ) line 10  => found RPAR
+Consuming (GREATER) line 10  => found RPAR
+Consuming (GREATEREQ) line 10  => found RPAR
+exprEqPrim RPAR
+Consuming (EQUAL) line 10  => found RPAR
+Consuming (NOTEQ) line 10  => found RPAR
+exprAndPrim RPAR
+Consuming (AND) line 10  => found RPAR
+exprOrPrim RPAR
+Consuming (OR) line 10  => found RPAR
+Consuming (COMMA) line 10  => found RPAR
+Consuming (RPAR) line 10  => consumed
+exprPostfixPrim SEMICOLON
+Consuming (LBRACKET) line 10  => found SEMICOLON
+Consuming (DOT) line 10  => found SEMICOLON
+exprMulPrim SEMICOLON
+Consuming (MUL) line 10  => found SEMICOLON
+Consuming (DIV) line 10  => found SEMICOLON
+exprAddPrim SEMICOLON
+Consuming (ADD) line 10  => found SEMICOLON
+Consuming (SUB) line 10  => found SEMICOLON
+exprRelPrim SEMICOLON
+Consuming (LESS) line 10  => found SEMICOLON
+Consuming (LESSEQ) line 10  => found SEMICOLON
+Consuming (GREATER) line 10  => found SEMICOLON
+Consuming (GREATEREQ) line 10  => found SEMICOLON
+exprEqPrim SEMICOLON
+Consuming (EQUAL) line 10  => found SEMICOLON
+Consuming (NOTEQ) line 10  => found SEMICOLON
+exprAndPrim SEMICOLON
+Consuming (AND) line 10  => found SEMICOLON
+exprOrPrim SEMICOLON
+Consuming (OR) line 10  => found SEMICOLON
+Consuming (SEMICOLON) line 10  => consumed
+varDef TYPE_INT
+typeBase TYPE_INT
+Consuming (TYPE_INT) line 13  => consumed
+Consuming (ID) line 13  => consumed
+arrayDecl SEMICOLON
+Consuming (LBRACKET) line 13  => found SEMICOLON
+Consuming (SEMICOLON) line 13  => consumed
+varDef ID
+typeBase ID
+Consuming (TYPE_INT) line 14  => found ID
+Consuming (TYPE_DOUBLE) line 14  => found ID
+Consuming (TYPE_CHAR) line 14  => found ID
+Consuming (STRUCT) line 14  => found ID
+stm ID
+stmCompound ID
+Consuming (LACC) line 14  => found ID
+Consuming (IF) line 14  => found ID
+Consuming (WHILE) line 14  => found ID
+Consuming (RETURN) line 14  => found ID
+expr ID
+exprAssign ID
+exprUnary ID
+Consuming (SUB) line 14  => found ID
+Consuming (NOT) line 14  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 14  => consumed
+Consuming (LPAR) line 14  => found ASSIGN
+exprPostfixPrim ASSIGN
+Consuming (LBRACKET) line 14  => found ASSIGN
+Consuming (DOT) line 14  => found ASSIGN
+Consuming (ASSIGN) line 14  => consumed
+exprAssign INT
+exprUnary INT
+Consuming (SUB) line 14  => found INT
+Consuming (NOT) line 14  => found INT
+exprPostfix INT
+exprPrimary INT
+Consuming (ID) line 14  => found INT
+Consuming (INT) line 14  => consumed
+exprPostfixPrim SEMICOLON
+Consuming (LBRACKET) line 14  => found SEMICOLON
+Consuming (DOT) line 14  => found SEMICOLON
+Consuming (ASSIGN) line 14  => found SEMICOLON
+exprOr INT
+exprAnd INT
+exprEq INT
+exprRel INT
+exprAdd INT
+exprMul INT
+exprCast INT
+Consuming (LPAR) line 14  => found INT
+exprUnary INT
+Consuming (SUB) line 14  => found INT
+Consuming (NOT) line 14  => found INT
+exprPostfix INT
+exprPrimary INT
+Consuming (ID) line 14  => found INT
+Consuming (INT) line 14  => consumed
+exprPostfixPrim SEMICOLON
+Consuming (LBRACKET) line 14  => found SEMICOLON
+Consuming (DOT) line 14  => found SEMICOLON
+exprMulPrim SEMICOLON
+Consuming (MUL) line 14  => found SEMICOLON
+Consuming (DIV) line 14  => found SEMICOLON
+exprAddPrim SEMICOLON
+Consuming (ADD) line 14  => found SEMICOLON
+Consuming (SUB) line 14  => found SEMICOLON
+exprRelPrim SEMICOLON
+Consuming (LESS) line 14  => found SEMICOLON
+Consuming (LESSEQ) line 14  => found SEMICOLON
+Consuming (GREATER) line 14  => found SEMICOLON
+Consuming (GREATEREQ) line 14  => found SEMICOLON
+exprEqPrim SEMICOLON
+Consuming (EQUAL) line 14  => found SEMICOLON
+Consuming (NOTEQ) line 14  => found SEMICOLON
+exprAndPrim SEMICOLON
+Consuming (AND) line 14  => found SEMICOLON
+exprOrPrim SEMICOLON
+Consuming (OR) line 14  => found SEMICOLON
+Consuming (SEMICOLON) line 14  => consumed
+varDef TYPE_INT
+typeBase TYPE_INT
+Consuming (TYPE_INT) line 15  => consumed
+Consuming (ID) line 15  => consumed
+arrayDecl SEMICOLON
+Consuming (LBRACKET) line 15  => found SEMICOLON
+Consuming (SEMICOLON) line 15  => consumed
+varDef ID
+typeBase ID
+Consuming (TYPE_INT) line 16  => found ID
+Consuming (TYPE_DOUBLE) line 16  => found ID
+Consuming (TYPE_CHAR) line 16  => found ID
+Consuming (STRUCT) line 16  => found ID
+stm ID
+stmCompound ID
+Consuming (LACC) line 16  => found ID
+Consuming (IF) line 16  => found ID
+Consuming (WHILE) line 16  => found ID
+Consuming (RETURN) line 16  => found ID
+expr ID
+exprAssign ID
+exprUnary ID
+Consuming (SUB) line 16  => found ID
+Consuming (NOT) line 16  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 16  => consumed
+Consuming (LPAR) line 16  => found ASSIGN
+exprPostfixPrim ASSIGN
+Consuming (LBRACKET) line 16  => found ASSIGN
+Consuming (DOT) line 16  => found ASSIGN
+Consuming (ASSIGN) line 16  => consumed
+exprAssign INT
+exprUnary INT
+Consuming (SUB) line 16  => found INT
+Consuming (NOT) line 16  => found INT
+exprPostfix INT
+exprPrimary INT
+Consuming (ID) line 16  => found INT
+Consuming (INT) line 16  => consumed
+exprPostfixPrim SEMICOLON
+Consuming (LBRACKET) line 16  => found SEMICOLON
+Consuming (DOT) line 16  => found SEMICOLON
+Consuming (ASSIGN) line 16  => found SEMICOLON
+exprOr INT
+exprAnd INT
+exprEq INT
+exprRel INT
+exprAdd INT
+exprMul INT
+exprCast INT
+Consuming (LPAR) line 16  => found INT
+exprUnary INT
+Consuming (SUB) line 16  => found INT
+Consuming (NOT) line 16  => found INT
+exprPostfix INT
+exprPrimary INT
+Consuming (ID) line 16  => found INT
+Consuming (INT) line 16  => consumed
+exprPostfixPrim SEMICOLON
+Consuming (LBRACKET) line 16  => found SEMICOLON
+Consuming (DOT) line 16  => found SEMICOLON
+exprMulPrim SEMICOLON
+Consuming (MUL) line 16  => found SEMICOLON
+Consuming (DIV) line 16  => found SEMICOLON
+exprAddPrim SEMICOLON
+Consuming (ADD) line 16  => found SEMICOLON
+Consuming (SUB) line 16  => found SEMICOLON
+exprRelPrim SEMICOLON
+Consuming (LESS) line 16  => found SEMICOLON
+Consuming (LESSEQ) line 16  => found SEMICOLON
+Consuming (GREATER) line 16  => found SEMICOLON
+Consuming (GREATEREQ) line 16  => found SEMICOLON
+exprEqPrim SEMICOLON
+Consuming (EQUAL) line 16  => found SEMICOLON
+Consuming (NOTEQ) line 16  => found SEMICOLON
+exprAndPrim SEMICOLON
+Consuming (AND) line 16  => found SEMICOLON
+exprOrPrim SEMICOLON
+Consuming (OR) line 16  => found SEMICOLON
+Consuming (SEMICOLON) line 16  => consumed
+varDef WHILE
+typeBase WHILE
+Consuming (TYPE_INT) line 17  => found WHILE
+Consuming (TYPE_DOUBLE) line 17  => found WHILE
+Consuming (TYPE_CHAR) line 17  => found WHILE
+Consuming (STRUCT) line 17  => found WHILE
+stm WHILE
+stmCompound WHILE
+Consuming (LACC) line 17  => found WHILE
+Consuming (IF) line 17  => found WHILE
+Consuming (WHILE) line 17  => consumed
+Consuming (LPAR) line 17  => consumed
+expr ID
+exprAssign ID
+exprUnary ID
+Consuming (SUB) line 17  => found ID
+Consuming (NOT) line 17  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 17  => consumed
+Consuming (LPAR) line 17  => found LESS
+exprPostfixPrim LESS
+Consuming (LBRACKET) line 17  => found LESS
+Consuming (DOT) line 17  => found LESS
+Consuming (ASSIGN) line 17  => found LESS
+exprOr ID
+exprAnd ID
+exprEq ID
+exprRel ID
+exprAdd ID
+exprMul ID
+exprCast ID
+Consuming (LPAR) line 17  => found ID
+exprUnary ID
+Consuming (SUB) line 17  => found ID
+Consuming (NOT) line 17  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 17  => consumed
+Consuming (LPAR) line 17  => found LESS
+exprPostfixPrim LESS
+Consuming (LBRACKET) line 17  => found LESS
+Consuming (DOT) line 17  => found LESS
+exprMulPrim LESS
+Consuming (MUL) line 17  => found LESS
+Consuming (DIV) line 17  => found LESS
+exprAddPrim LESS
+Consuming (ADD) line 17  => found LESS
+Consuming (SUB) line 17  => found LESS
+exprRelPrim LESS
+Consuming (LESS) line 17  => consumed
+exprAdd INT
+exprMul INT
+exprCast INT
+Consuming (LPAR) line 17  => found INT
+exprUnary INT
+Consuming (SUB) line 17  => found INT
+Consuming (NOT) line 17  => found INT
+exprPostfix INT
+exprPrimary INT
+Consuming (ID) line 17  => found INT
+Consuming (INT) line 17  => consumed
+exprPostfixPrim RPAR
+Consuming (LBRACKET) line 17  => found RPAR
+Consuming (DOT) line 17  => found RPAR
+exprMulPrim RPAR
+Consuming (MUL) line 17  => found RPAR
+Consuming (DIV) line 17  => found RPAR
+exprAddPrim RPAR
+Consuming (ADD) line 17  => found RPAR
+Consuming (SUB) line 17  => found RPAR
+exprRelPrim RPAR
+Consuming (LESS) line 17  => found RPAR
+Consuming (LESSEQ) line 17  => found RPAR
+Consuming (GREATER) line 17  => found RPAR
+Consuming (GREATEREQ) line 17  => found RPAR
+exprEqPrim RPAR
+Consuming (EQUAL) line 17  => found RPAR
+Consuming (NOTEQ) line 17  => found RPAR
+exprAndPrim RPAR
+Consuming (AND) line 17  => found RPAR
+exprOrPrim RPAR
+Consuming (OR) line 17  => found RPAR
+Consuming (RPAR) line 17  => consumed
+stm LACC
+stmCompound LACC
+Consuming (LACC) line 17  => consumed
+varDef ID
+typeBase ID
+Consuming (TYPE_INT) line 18  => found ID
+Consuming (TYPE_DOUBLE) line 18  => found ID
+Consuming (TYPE_CHAR) line 18  => found ID
+Consuming (STRUCT) line 18  => found ID
+stm ID
+stmCompound ID
+Consuming (LACC) line 18  => found ID
+Consuming (IF) line 18  => found ID
+Consuming (WHILE) line 18  => found ID
+Consuming (RETURN) line 18  => found ID
+expr ID
+exprAssign ID
+exprUnary ID
+Consuming (SUB) line 18  => found ID
+Consuming (NOT) line 18  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 18  => consumed
+Consuming (LPAR) line 18  => found ASSIGN
+exprPostfixPrim ASSIGN
+Consuming (LBRACKET) line 18  => found ASSIGN
+Consuming (DOT) line 18  => found ASSIGN
+Consuming (ASSIGN) line 18  => consumed
+exprAssign ID
+exprUnary ID
+Consuming (SUB) line 18  => found ID
+Consuming (NOT) line 18  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 18  => consumed
+Consuming (LPAR) line 18  => found MUL
+exprPostfixPrim MUL
+Consuming (LBRACKET) line 18  => found MUL
+Consuming (DOT) line 18  => found MUL
+Consuming (ASSIGN) line 18  => found MUL
+exprOr ID
+exprAnd ID
+exprEq ID
+exprRel ID
+exprAdd ID
+exprMul ID
+exprCast ID
+Consuming (LPAR) line 18  => found ID
+exprUnary ID
+Consuming (SUB) line 18  => found ID
+Consuming (NOT) line 18  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 18  => consumed
+Consuming (LPAR) line 18  => found MUL
+exprPostfixPrim MUL
+Consuming (LBRACKET) line 18  => found MUL
+Consuming (DOT) line 18  => found MUL
+exprMulPrim MUL
+Consuming (MUL) line 18  => consumed
+exprCast ID
+Consuming (LPAR) line 18  => found ID
+exprUnary ID
+Consuming (SUB) line 18  => found ID
+Consuming (NOT) line 18  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 18  => consumed
+Consuming (LPAR) line 18  => found SEMICOLON
+exprPostfixPrim SEMICOLON
+Consuming (LBRACKET) line 18  => found SEMICOLON
+Consuming (DOT) line 18  => found SEMICOLON
+exprMulPrim SEMICOLON
+Consuming (MUL) line 18  => found SEMICOLON
+Consuming (DIV) line 18  => found SEMICOLON
+exprAddPrim SEMICOLON
+Consuming (ADD) line 18  => found SEMICOLON
+Consuming (SUB) line 18  => found SEMICOLON
+exprRelPrim SEMICOLON
+Consuming (LESS) line 18  => found SEMICOLON
+Consuming (LESSEQ) line 18  => found SEMICOLON
+Consuming (GREATER) line 18  => found SEMICOLON
+Consuming (GREATEREQ) line 18  => found SEMICOLON
+exprEqPrim SEMICOLON
+Consuming (EQUAL) line 18  => found SEMICOLON
+Consuming (NOTEQ) line 18  => found SEMICOLON
+exprAndPrim SEMICOLON
+Consuming (AND) line 18  => found SEMICOLON
+exprOrPrim SEMICOLON
+Consuming (OR) line 18  => found SEMICOLON
+Consuming (SEMICOLON) line 18  => consumed
+varDef ID
+typeBase ID
+Consuming (TYPE_INT) line 19  => found ID
+Consuming (TYPE_DOUBLE) line 19  => found ID
+Consuming (TYPE_CHAR) line 19  => found ID
+Consuming (STRUCT) line 19  => found ID
+stm ID
+stmCompound ID
+Consuming (LACC) line 19  => found ID
+Consuming (IF) line 19  => found ID
+Consuming (WHILE) line 19  => found ID
+Consuming (RETURN) line 19  => found ID
+expr ID
+exprAssign ID
+exprUnary ID
+Consuming (SUB) line 19  => found ID
+Consuming (NOT) line 19  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 19  => consumed
+Consuming (LPAR) line 19  => found ASSIGN
+exprPostfixPrim ASSIGN
+Consuming (LBRACKET) line 19  => found ASSIGN
+Consuming (DOT) line 19  => found ASSIGN
+Consuming (ASSIGN) line 19  => consumed
+exprAssign ID
+exprUnary ID
+Consuming (SUB) line 19  => found ID
+Consuming (NOT) line 19  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 19  => consumed
+Consuming (LPAR) line 19  => found ADD
+exprPostfixPrim ADD
+Consuming (LBRACKET) line 19  => found ADD
+Consuming (DOT) line 19  => found ADD
+Consuming (ASSIGN) line 19  => found ADD
+exprOr ID
+exprAnd ID
+exprEq ID
+exprRel ID
+exprAdd ID
+exprMul ID
+exprCast ID
+Consuming (LPAR) line 19  => found ID
+exprUnary ID
+Consuming (SUB) line 19  => found ID
+Consuming (NOT) line 19  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 19  => consumed
+Consuming (LPAR) line 19  => found ADD
+exprPostfixPrim ADD
+Consuming (LBRACKET) line 19  => found ADD
+Consuming (DOT) line 19  => found ADD
+exprMulPrim ADD
+Consuming (MUL) line 19  => found ADD
+Consuming (DIV) line 19  => found ADD
+exprAddPrim ADD
+Consuming (ADD) line 19  => consumed
+exprMul INT
+exprCast INT
+Consuming (LPAR) line 19  => found INT
+exprUnary INT
+Consuming (SUB) line 19  => found INT
+Consuming (NOT) line 19  => found INT
+exprPostfix INT
+exprPrimary INT
+Consuming (ID) line 19  => found INT
+Consuming (INT) line 19  => consumed
+exprPostfixPrim SEMICOLON
+Consuming (LBRACKET) line 19  => found SEMICOLON
+Consuming (DOT) line 19  => found SEMICOLON
+exprMulPrim SEMICOLON
+Consuming (MUL) line 19  => found SEMICOLON
+Consuming (DIV) line 19  => found SEMICOLON
+exprAddPrim SEMICOLON
+Consuming (ADD) line 19  => found SEMICOLON
+Consuming (SUB) line 19  => found SEMICOLON
+exprRelPrim SEMICOLON
+Consuming (LESS) line 19  => found SEMICOLON
+Consuming (LESSEQ) line 19  => found SEMICOLON
+Consuming (GREATER) line 19  => found SEMICOLON
+Consuming (GREATEREQ) line 19  => found SEMICOLON
+exprEqPrim SEMICOLON
+Consuming (EQUAL) line 19  => found SEMICOLON
+Consuming (NOTEQ) line 19  => found SEMICOLON
+exprAndPrim SEMICOLON
+Consuming (AND) line 19  => found SEMICOLON
+exprOrPrim SEMICOLON
+Consuming (OR) line 19  => found SEMICOLON
+Consuming (SEMICOLON) line 19  => consumed
+varDef RACC
+typeBase RACC
+Consuming (TYPE_INT) line 20  => found RACC
+Consuming (TYPE_DOUBLE) line 20  => found RACC
+Consuming (TYPE_CHAR) line 20  => found RACC
+Consuming (STRUCT) line 20  => found RACC
+stm RACC
+stmCompound RACC
+Consuming (LACC) line 20  => found RACC
+Consuming (IF) line 20  => found RACC
+Consuming (WHILE) line 20  => found RACC
+Consuming (RETURN) line 20  => found RACC
+expr RACC
+exprAssign RACC
+exprUnary RACC
+Consuming (SUB) line 20  => found RACC
+Consuming (NOT) line 20  => found RACC
+exprPostfix RACC
+exprPrimary RACC
+Consuming (ID) line 20  => found RACC
+Consuming (INT) line 20  => found RACC
+Consuming (DOUBLE) line 20  => found RACC
+Consuming (CHAR) line 20  => found RACC
+Consuming (STRING) line 20  => found RACC
+Consuming (LPAR) line 20  => found RACC
+exprOr RACC
+exprAnd RACC
+exprEq RACC
+exprRel RACC
+exprAdd RACC
+exprMul RACC
+exprCast RACC
+Consuming (LPAR) line 20  => found RACC
+exprUnary RACC
+Consuming (SUB) line 20  => found RACC
+Consuming (NOT) line 20  => found RACC
+exprPostfix RACC
+exprPrimary RACC
+Consuming (ID) line 20  => found RACC
+Consuming (INT) line 20  => found RACC
+Consuming (DOUBLE) line 20  => found RACC
+Consuming (CHAR) line 20  => found RACC
+Consuming (STRING) line 20  => found RACC
+Consuming (LPAR) line 20  => found RACC
+Consuming (SEMICOLON) line 20  => found RACC
+Consuming (RACC) line 20  => consumed
+varDef ID
+typeBase ID
+Consuming (TYPE_INT) line 21  => found ID
+Consuming (TYPE_DOUBLE) line 21  => found ID
+Consuming (TYPE_CHAR) line 21  => found ID
+Consuming (STRUCT) line 21  => found ID
+stm ID
+stmCompound ID
+Consuming (LACC) line 21  => found ID
+Consuming (IF) line 21  => found ID
+Consuming (WHILE) line 21  => found ID
+Consuming (RETURN) line 21  => found ID
+expr ID
+exprAssign ID
+exprUnary ID
+Consuming (SUB) line 21  => found ID
+Consuming (NOT) line 21  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 21  => consumed
+Consuming (LPAR) line 21  => consumed
+Consuming (RPAR) line 21  => found ID
+expr ID
+exprAssign ID
+exprUnary ID
+Consuming (SUB) line 21  => found ID
+Consuming (NOT) line 21  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 21  => consumed
+Consuming (LPAR) line 21  => found RPAR
+exprPostfixPrim RPAR
+Consuming (LBRACKET) line 21  => found RPAR
+Consuming (DOT) line 21  => found RPAR
+Consuming (ASSIGN) line 21  => found RPAR
+exprOr ID
+exprAnd ID
+exprEq ID
+exprRel ID
+exprAdd ID
+exprMul ID
+exprCast ID
+Consuming (LPAR) line 21  => found ID
+exprUnary ID
+Consuming (SUB) line 21  => found ID
+Consuming (NOT) line 21  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 21  => consumed
+Consuming (LPAR) line 21  => found RPAR
+exprPostfixPrim RPAR
+Consuming (LBRACKET) line 21  => found RPAR
+Consuming (DOT) line 21  => found RPAR
+exprMulPrim RPAR
+Consuming (MUL) line 21  => found RPAR
+Consuming (DIV) line 21  => found RPAR
+exprAddPrim RPAR
+Consuming (ADD) line 21  => found RPAR
+Consuming (SUB) line 21  => found RPAR
+exprRelPrim RPAR
+Consuming (LESS) line 21  => found RPAR
+Consuming (LESSEQ) line 21  => found RPAR
+Consuming (GREATER) line 21  => found RPAR
+Consuming (GREATEREQ) line 21  => found RPAR
+exprEqPrim RPAR
+Consuming (EQUAL) line 21  => found RPAR
+Consuming (NOTEQ) line 21  => found RPAR
+exprAndPrim RPAR
+Consuming (AND) line 21  => found RPAR
+exprOrPrim RPAR
+Consuming (OR) line 21  => found RPAR
+Consuming (COMMA) line 21  => found RPAR
+Consuming (RPAR) line 21  => consumed
+exprPostfixPrim SEMICOLON
+Consuming (LBRACKET) line 21  => found SEMICOLON
+Consuming (DOT) line 21  => found SEMICOLON
+Consuming (ASSIGN) line 21  => found SEMICOLON
+exprOr ID
+exprAnd ID
+exprEq ID
+exprRel ID
+exprAdd ID
+exprMul ID
+exprCast ID
+Consuming (LPAR) line 21  => found ID
+exprUnary ID
+Consuming (SUB) line 21  => found ID
+Consuming (NOT) line 21  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 21  => consumed
+Consuming (LPAR) line 21  => consumed
+Consuming (RPAR) line 21  => found ID
+expr ID
+exprAssign ID
+exprUnary ID
+Consuming (SUB) line 21  => found ID
+Consuming (NOT) line 21  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 21  => consumed
+Consuming (LPAR) line 21  => found RPAR
+exprPostfixPrim RPAR
+Consuming (LBRACKET) line 21  => found RPAR
+Consuming (DOT) line 21  => found RPAR
+Consuming (ASSIGN) line 21  => found RPAR
+exprOr ID
+exprAnd ID
+exprEq ID
+exprRel ID
+exprAdd ID
+exprMul ID
+exprCast ID
+Consuming (LPAR) line 21  => found ID
+exprUnary ID
+Consuming (SUB) line 21  => found ID
+Consuming (NOT) line 21  => found ID
+exprPostfix ID
+exprPrimary ID
+Consuming (ID) line 21  => consumed
+Consuming (LPAR) line 21  => found RPAR
+exprPostfixPrim RPAR
+Consuming (LBRACKET) line 21  => found RPAR
+Consuming (DOT) line 21  => found RPAR
+exprMulPrim RPAR
+Consuming (MUL) line 21  => found RPAR
+Consuming (DIV) line 21  => found RPAR
+exprAddPrim RPAR
+Consuming (ADD) line 21  => found RPAR
+Consuming (SUB) line 21  => found RPAR
+exprRelPrim RPAR
+Consuming (LESS) line 21  => found RPAR
+Consuming (LESSEQ) line 21  => found RPAR
+Consuming (GREATER) line 21  => found RPAR
+Consuming (GREATEREQ) line 21  => found RPAR
+exprEqPrim RPAR
+Consuming (EQUAL) line 21  => found RPAR
+Consuming (NOTEQ) line 21  => found RPAR
+exprAndPrim RPAR
+Consuming (AND) line 21  => found RPAR
+exprOrPrim RPAR
+Consuming (OR) line 21  => found RPAR
+Consuming (COMMA) line 21  => found RPAR
+Consuming (RPAR) line 21  => consumed
+exprPostfixPrim SEMICOLON
+Consuming (LBRACKET) line 21  => found SEMICOLON
+Consuming (DOT) line 21  => found SEMICOLON
+exprMulPrim SEMICOLON
+Consuming (MUL) line 21  => found SEMICOLON
+Consuming (DIV) line 21  => found SEMICOLON
+exprAddPrim SEMICOLON
+Consuming (ADD) line 21  => found SEMICOLON
+Consuming (SUB) line 21  => found SEMICOLON
+exprRelPrim SEMICOLON
+Consuming (LESS) line 21  => found SEMICOLON
+Consuming (LESSEQ) line 21  => found SEMICOLON
+Consuming (GREATER) line 21  => found SEMICOLON
+Consuming (GREATEREQ) line 21  => found SEMICOLON
+exprEqPrim SEMICOLON
+Consuming (EQUAL) line 21  => found SEMICOLON
+Consuming (NOTEQ) line 21  => found SEMICOLON
+exprAndPrim SEMICOLON
+Consuming (AND) line 21  => found SEMICOLON
+exprOrPrim SEMICOLON
+Consuming (OR) line 21  => found SEMICOLON
+Consuming (SEMICOLON) line 21  => consumed
+varDef RACC
+typeBase RACC
+Consuming (TYPE_INT) line 22  => found RACC
+Consuming (TYPE_DOUBLE) line 22  => found RACC
+Consuming (TYPE_CHAR) line 22  => found RACC
+Consuming (STRUCT) line 22  => found RACC
+stm RACC
+stmCompound RACC
+Consuming (LACC) line 22  => found RACC
+Consuming (IF) line 22  => found RACC
+Consuming (WHILE) line 22  => found RACC
+Consuming (RETURN) line 22  => found RACC
+expr RACC
+exprAssign RACC
+exprUnary RACC
+Consuming (SUB) line 22  => found RACC
+Consuming (NOT) line 22  => found RACC
+exprPostfix RACC
+exprPrimary RACC
+Consuming (ID) line 22  => found RACC
+Consuming (INT) line 22  => found RACC
+Consuming (DOUBLE) line 22  => found RACC
+Consuming (CHAR) line 22  => found RACC
+Consuming (STRING) line 22  => found RACC
+Consuming (LPAR) line 22  => found RACC
+exprOr RACC
+exprAnd RACC
+exprEq RACC
+exprRel RACC
+exprAdd RACC
+exprMul RACC
+exprCast RACC
+Consuming (LPAR) line 22  => found RACC
+exprUnary RACC
+Consuming (SUB) line 22  => found RACC
+Consuming (NOT) line 22  => found RACC
+exprPostfix RACC
+exprPrimary RACC
+Consuming (ID) line 22  => found RACC
+Consuming (INT) line 22  => found RACC
+Consuming (DOUBLE) line 22  => found RACC
+Consuming (CHAR) line 22  => found RACC
+Consuming (STRING) line 22  => found RACC
+Consuming (LPAR) line 22  => found RACC
+Consuming (SEMICOLON) line 22  => found RACC
+Consuming (RACC) line 22  => consumed
+structDef END
+Consuming (STRUCT) line 23  => found END
+fnDef END
+typeBase END
+Consuming (TYPE_INT) line 23  => found END
+Consuming (TYPE_DOUBLE) line 23  => found END
+Consuming (TYPE_CHAR) line 23  => found END
+Consuming (STRUCT) line 23  => found END
+Consuming (VOID) line 23  => found END
+varDef END
+typeBase END
+Consuming (TYPE_INT) line 23  => found END
+Consuming (TYPE_DOUBLE) line 23  => found END
+Consuming (TYPE_CHAR) line 23  => found END
+Consuming (STRUCT) line 23  => found END
+Consuming (END) line 23  => consumed

@@ -1,0 +1,118 @@
+0x55b61de9c900/0	CALL	0x55b61dea20e0
+0x55b61dea20e0/1	ENTER	2
+0x55b61dea38a0/4	PUSH.f	4.900000
+0x55b61dea3d20/5	CONV.f.i	// 4.9 -> 4
+0x55b61dea3da0/5	CALL_EXT	0x55b61cc80226
+=> 4
+0x55b61dea7b20/4	PUSH.i	3
+0x55b61dea8000/5	CALL	0x55b61de9dc40
+0x55b61de9dc40/6	ENTER	0
+0x55b61de9e380/7	FPADDR	-2	// 0x55b61cc860a0
+0x55b61de9e5c0/8	LOAD.i	// *(int*)0x55b61cc860a0 -> 3
+0x55b61de9e7c0/8	PUSH.i	3
+0x55b61de9e9c0/9	LESS.i	// 3<3 -> 0
+0x55b61de9ec80/8	JF	0x55b61de9f7c0	// 0
+0x55b61de9f7c0/7	NOP
+0x55b61de9ff20/7	FPADDR	-2	// 0x55b61cc860a0
+0x55b61dea0020/8	LOAD.i	// *(int*)0x55b61cc860a0 -> 3
+0x55b61dea06e0/8	FPADDR	-2	// 0x55b61cc860a0
+0x55b61dea08c0/9	LOAD.i	// *(int*)0x55b61cc860a0 -> 3
+0x55b61dea0aa0/9	PUSH.i	1
+0x55b61dea0c00/10	SUB.i	// 3-1 -> 2
+0x55b61dea0fa0/9	CALL	0x55b61de9dc40
+0x55b61de9dc40/10	ENTER	0
+0x55b61de9e380/11	FPADDR	-2	// 0x55b61cc860c0
+0x55b61de9e5c0/12	LOAD.i	// *(int*)0x55b61cc860c0 -> 2
+0x55b61de9e7c0/12	PUSH.i	3
+0x55b61de9e9c0/13	LESS.i	// 2<3 -> 1
+0x55b61de9ec80/12	JF	0x55b61de9f7c0	// 1
+0x55b61de9f2a0/11	FPADDR	-2	// 0x55b61cc860c0
+0x55b61de9f720/12	LOAD.i	// *(int*)0x55b61cc860c0 -> 2
+0x55b61de9f740/12	RET	1	// i:2, f:4.65608e-310
+0x55b61dea1060/9	MUL.i	// 3*2 -> 6
+0x55b61dea1440/8	RET	1	// i:6, f:4.65608e-310
+0x55b61dea84e0/5	CALL_EXT	0x55b61cc80226
+=> 6
+0x55b61dea8f40/4	FPADDR	1	// 0x55b61cc86090
+0x55b61dea94e0/5	PUSH.i	1
+0x55b61dea9960/6	STORE.i	// *(int*)0x55b61cc86090=1
+0x55b61dea9980/5	DROP
+0x55b61dea9f80/4	FPADDR	2	// 0x55b61cc86098
+0x55b61deaa520/5	PUSH.i	2
+0x55b61deaa9a0/6	STORE.i	// *(int*)0x55b61cc86098=2
+0x55b61deaa9c0/5	DROP
+0x55b61deab120/4	FPADDR	2	// 0x55b61cc86098
+0x55b61deab360/5	LOAD.i	// *(int*)0x55b61cc86098 -> 2
+0x55b61deab560/5	PUSH.i	5
+0x55b61deab760/6	LESS.i	// 2<5 -> 1
+0x55b61deaba20/5	JF	0x55b61deae760	// 1
+0x55b61deabec0/4	FPADDR	1	// 0x55b61cc86090
+0x55b61deac460/5	FPADDR	1	// 0x55b61cc86090
+0x55b61deac560/6	LOAD.i	// *(int*)0x55b61cc86090 -> 1
+0x55b61deac720/6	FPADDR	2	// 0x55b61cc86098
+0x55b61deac7e0/7	LOAD.i	// *(int*)0x55b61cc86098 -> 2
+0x55b61deac800/7	MUL.i	// 1*2 -> 2
+0x55b61deacbe0/6	STORE.i	// *(int*)0x55b61cc86090=2
+0x55b61deacc00/5	DROP
+0x55b61dead040/4	FPADDR	2	// 0x55b61cc86098
+0x55b61dead5e0/5	FPADDR	2	// 0x55b61cc86098
+0x55b61dead780/6	LOAD.i	// *(int*)0x55b61cc86098 -> 2
+0x55b61dead960/6	PUSH.i	1
+0x55b61deadac0/7	ADD.i	// 2+1 -> 3
+0x55b61deade00/6	STORE.i	// *(int*)0x55b61cc86098=3
+0x55b61deade20/5	DROP
+0x55b61deabaa0/4	JMP	0x55b61deab120
+0x55b61deab120/4	FPADDR	2	// 0x55b61cc86098
+0x55b61deab360/5	LOAD.i	// *(int*)0x55b61cc86098 -> 3
+0x55b61deab560/5	PUSH.i	5
+0x55b61deab760/6	LESS.i	// 3<5 -> 1
+0x55b61deaba20/5	JF	0x55b61deae760	// 1
+0x55b61deabec0/4	FPADDR	1	// 0x55b61cc86090
+0x55b61deac460/5	FPADDR	1	// 0x55b61cc86090
+0x55b61deac560/6	LOAD.i	// *(int*)0x55b61cc86090 -> 2
+0x55b61deac720/6	FPADDR	2	// 0x55b61cc86098
+0x55b61deac7e0/7	LOAD.i	// *(int*)0x55b61cc86098 -> 3
+0x55b61deac800/7	MUL.i	// 2*3 -> 6
+0x55b61deacbe0/6	STORE.i	// *(int*)0x55b61cc86090=6
+0x55b61deacc00/5	DROP
+0x55b61dead040/4	FPADDR	2	// 0x55b61cc86098
+0x55b61dead5e0/5	FPADDR	2	// 0x55b61cc86098
+0x55b61dead780/6	LOAD.i	// *(int*)0x55b61cc86098 -> 3
+0x55b61dead960/6	PUSH.i	1
+0x55b61deadac0/7	ADD.i	// 3+1 -> 4
+0x55b61deade00/6	STORE.i	// *(int*)0x55b61cc86098=4
+0x55b61deade20/5	DROP
+0x55b61deabaa0/4	JMP	0x55b61deab120
+0x55b61deab120/4	FPADDR	2	// 0x55b61cc86098
+0x55b61deab360/5	LOAD.i	// *(int*)0x55b61cc86098 -> 4
+0x55b61deab560/5	PUSH.i	5
+0x55b61deab760/6	LESS.i	// 4<5 -> 1
+0x55b61deaba20/5	JF	0x55b61deae760	// 1
+0x55b61deabec0/4	FPADDR	1	// 0x55b61cc86090
+0x55b61deac460/5	FPADDR	1	// 0x55b61cc86090
+0x55b61deac560/6	LOAD.i	// *(int*)0x55b61cc86090 -> 6
+0x55b61deac720/6	FPADDR	2	// 0x55b61cc86098
+0x55b61deac7e0/7	LOAD.i	// *(int*)0x55b61cc86098 -> 4
+0x55b61deac800/7	MUL.i	// 6*4 -> 24
+0x55b61deacbe0/6	STORE.i	// *(int*)0x55b61cc86090=24
+0x55b61deacc00/5	DROP
+0x55b61dead040/4	FPADDR	2	// 0x55b61cc86098
+0x55b61dead5e0/5	FPADDR	2	// 0x55b61cc86098
+0x55b61dead780/6	LOAD.i	// *(int*)0x55b61cc86098 -> 4
+0x55b61dead960/6	PUSH.i	1
+0x55b61deadac0/7	ADD.i	// 4+1 -> 5
+0x55b61deade00/6	STORE.i	// *(int*)0x55b61cc86098=5
+0x55b61deade20/5	DROP
+0x55b61deabaa0/4	JMP	0x55b61deab120
+0x55b61deab120/4	FPADDR	2	// 0x55b61cc86098
+0x55b61deab360/5	LOAD.i	// *(int*)0x55b61cc86098 -> 5
+0x55b61deab560/5	PUSH.i	5
+0x55b61deab760/6	LESS.i	// 5<5 -> 0
+0x55b61deaba20/5	JF	0x55b61deae760	// 0
+0x55b61deae760/4	NOP
+0x55b61deafde0/4	FPADDR	1	// 0x55b61cc86090
+0x55b61deb0260/5	LOAD.i	// *(int*)0x55b61cc86090 -> 24
+0x55b61deb02e0/5	CALL_EXT	0x55b61cc80226
+=> 24
+0x55b61deb1080/4	RET_VOID	0
+0x55b61de9c920/0	HALT
